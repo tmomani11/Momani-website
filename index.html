@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tyler Momani | Full Stack & AI Developer</title>
+    <meta name="description" content="Portfolio for Tyler Momani, a full stack and AI developer building software, AI systems, CAD projects, and robotics from concept to deployment.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .robot-demo { width:100%; height:auto; display:block; border-radius:8px; background:#000; object-fit:cover; }
+      .robot-panel { max-width:720px; margin:1rem auto; }
+    </style>
+  </head>
+  <body>
+    <header class="site-header" data-animate>
+      <a class="brand" href="#top" aria-label="Tyler Momani home">
+        <span class="brand-mark">TM</span>
+        <span>Tyler Momani</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#cad">CAD</a>
+        <a href="#robotics">Robotics</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-grid">
+          <div class="hero-copy" data-animate>
+            <p class="eyebrow">Orange County, CA / Available for work</p>
+            <h1 id="hero-title">Tyler Momani</h1>
+            <p class="hero-title">Full Stack & AI Developer</p>
+            <p class="hero-subtitle">Software Engineer | AI | CAD Designer</p>
+            <p class="hero-line">Building software, AI systems, and physical products from concept to deployment.</p>
+            <div class="hero-actions" aria-label="Profile links">
+              <a class="button primary" href="Tyler-Momani-Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+              <a class="button" href="https://github.com/Tmomani11" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="button" href="https://linkedin.com/in/Tyler-momani" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="button" href="mailto:TylerMomani@gmail.com">Contact</a>
+            </div>
+          </div>
+          <aside class="hero-panel" data-animate>
+            <div class="status-row">
+              <span class="pulse"></span>
+              <span>status: building</span>
+            </div>
+            <dl class="quick-stats">
+              <div><dt>Degree</dt><dd>BS Computer Science</dd></div>
+              <div><dt>School</dt><dd>Chapman University</dd></div>
+              <div><dt>Award</dt><dd>LA Hacks 2025, 3rd Place</dd></div>
+              <div><dt>Focus</dt><dd>AI, full stack, CAD, robotics</dd></div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section about" id="about" data-animate>
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Engineer Across Code, Models, and Machines</h2>
+        </div>
+        <div class="about-grid">
+          <p>Tyler is a Chapman University computer science graduate and full stack AI developer with experience building, deploying, and teaching AI-powered systems. His work spans production NLP assistants, cloud APIs, warehouse tools, hackathon-winning computer vision, and hands-on product design.</p>
+          <p>He has mentored more than 50 computer science students, led a three-person LA Hacks team, and works directly with clients to turn fuzzy operational problems into deployed software.</p>
+        </div>
+        <div class="badges" aria-label="Profile highlights">
+          <span>Orange County, CA</span>
+          <span>Available for work</span>
+          <span>Chapman University</span>
+          <span>LA Hacks 3rd Place</span>
+          <span>Freelance AI Developer</span>
+        </div>
+      </section>
+
+      <section class="section" id="skills" data-animate>
+        <div class="section-heading compact">
+          <p class="eyebrow">Skills</p>
+          <h2>Tooling Split by Discipline</h2>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card"><h3>Languages</h3><p>Python, JavaScript, TypeScript, Java, C++, SQL</p></article>
+          <article class="skill-card"><h3>AI</h3><p>TensorFlow, PyTorch, OpenCV, NLP, model fine-tuning, Gemini API</p></article>
+          <article class="skill-card"><h3>Web</h3><p>React, HTML, CSS, Flask, REST APIs, Reflex</p></article>
+          <article class="skill-card"><h3>Cloud</h3><p>AWS, Docker, GitHub, CI/CD, unit and integration testing</p></article>
+          <article class="skill-card"><h3>CAD</h3><p>Fusion 360, 3D printing, product design, mechanical design</p></article>
+          <article class="skill-card"><h3>Databases</h3><p>MySQL, relational modeling, JOINs, subqueries, stored procedures</p></article>
+        </div>
+      </section>
+
+      <section class="section" id="projects" data-animate>
+        <div class="section-heading">
+          <p class="eyebrow">Featured Projects</p>
+          <h2>Software With Operational Shape</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-visual has-image warehouse-visual">
+              <a href="https://tmomani11.github.io/Veyra-WMS/" target="_blank" rel="noreferrer">
+                <img src="assets/veyra.png" alt="Warehouse fulfillment dashboard mockup with route optimization and barcode receiving panels">
+              </a>
+            </div>
+            <div class="project-copy">
+              <h3>Veyra Fulfillment OS</h3>
+              <p>Warehouse route optimization and WMS workflow prototype that sequences multi-stop pick routes, models receiving logic, detects duplicates, generates SKUs, and separates business logic across 10 focused JavaScript modules.</p>
+              <ul>
+                <li>Role-based owner, manager, and worker permissions</li>
+                <li>Barcode-driven receiving flow and quality hold paths</li>
+                <li>Tech: JavaScript, HTML/CSS, frontend systems design</li>
+              </ul>
+              <div class="project-links"><a href="https://github.com/Tmomani11" target="_blank" rel="noreferrer">GitHub</a><a href="https://tmomani11.github.io/Veyra-WMS/" target="_blank" rel="noreferrer">Demo</a></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual has-image fitness-visual">
+              <img src="assets/fitness.png" alt="AI fitness platform mockup with pose analysis and workout recommendation panels">
+            </div>
+            <div class="project-copy">
+              <h3>AI Fitness Platform</h3>
+              <p>LA Hacks 2025 third-place project. Led a three-person team over 48 hours to analyze body structure, shoulder width, and body fat estimates, then generate personalized workout material.</p>
+              <ul>
+                <li>OpenCV body analysis network</li>
+                <li>Gemini-powered content generation</li>
+                <li>Tech: Python, TensorFlow, OpenCV, Reflex, Gemini</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual has-image rideshare-visual">
+              <img src="assets/project-rideshare.png" alt="Rideshare backend mockup with map route, API cards, database nodes, and cloud deployment status">
+            </div>
+            <div class="project-copy">
+              <h3>RideShare Platform</h3>
+              <p>Cloud-hosted Flask REST API for an Uber-style rideshare system with users, drivers, rides, payments, matching, fare calculation, and trip history endpoints.</p>
+              <ul>
+                <li>Relational schema with foreign key constraints</li>
+                <li>Advanced SQL reporting and analytics patterns</li>
+                <li>Tech: Python, Flask, MySQL, REST API, AWS</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual has-image bot-visual project-screenshot">
+              <img src="assets/restaurant-bot-demo.png" alt="Discord restaurant ordering bot demo showing order commands, totals, and out-of-stock item handling">
+            </div>
+            <div class="project-copy">
+              <h3>Discord Restaurant Management Bot</h3>
+              <p>Ordering and workflow automation bot supporting 10+ concurrent users with slash-command workflows, order state management, API separation, and CSV reporting.</p>
+              <ul>
+                <li>Real-time order state commands</li>
+                <li>MySQL-backed persistence</li>
+                <li>Tech: Python, MySQL, REST API</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual has-image chatbot-visual">
+              <img src="assets/chatbot.png" alt="Freelance AI chatbot client dashboard mockup with conversation analytics and training data panels">
+            </div>
+            <div class="project-copy">
+              <h3>Freelance AI Chatbots</h3>
+              <p>Client-facing NLP assistants for small businesses, serving roughly 100 daily visitors and delivered through full lifecycle discovery, training, deployment, documentation, and handoff.</p>
+              <ul>
+                <li>Business-specific FAQ and support datasets</li>
+                <li>TensorFlow and PyTorch fine-tuning</li>
+                <li>Production handoff and client documentation</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section media-section" id="cad" data-animate>
+        <div class="section-heading">
+          <p class="eyebrow">CAD Gallery</p>
+          <h2>Printed Products, Enclosures, and Hardware Play</h2>
+        </div>
+        <div class="cad-intro">
+          <p>Hands-on CAD work with printed mechanisms, translucent parts, electronics enclosures, and handheld hardware prototypes. These photos make the physical side of the portfolio visible instead of leaving it implied.</p>
+          <div class="badges">
+            <span>Fusion 360</span>
+            <span>3D printing</span>
+            <span>Electronics packaging</span>
+            <span>Prototype iteration</span>
+          </div>
+        </div>
+        <div class="gallery large-gallery" aria-label="CAD and 3D printing gallery">
+          <figure class="photo-feature">
+            <img src="assets/gumball-lineup.png" alt="Three 3D printed gumball machine prototypes in yellow, translucent gold, and red">
+            <figcaption>Gumball machine prototype lineup</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/gumball-machine.png" alt="A red and white 3D printed gumball machine prototype with a clear globe">
+            <figcaption>Functional gumball machine print</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/printed-sword.png" alt="A 3D printed decorative sword with translucent blade and white handle">
+            <figcaption>Printed sword prop and assembly</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/snake-game-finished.png" alt="A handheld snake game controller with joystick and LED matrix display">
+            <figcaption>Handheld snake game exterior</figcaption>
+          </figure>
+          <figure class="photo-feature">
+            <img src="assets/snake-game-internals.png" alt="Open snake game electronics enclosure showing battery pack, wiring, and circuit board">
+            <figcaption>Snake game electronics enclosure</figcaption>
+          </figure>
+
+        </div>
+      </section>
+
+      <section class="section split" id="robotics" data-animate>
+        <div>
+          <p class="eyebrow">Robotics</p>
+          <h2>Vision, Automation, and Physical Control</h2>
+          <p>Robotics work belongs beside the AI and CAD portfolio because it shows the full loop: perceive the world, make a decision, move hardware, then refine the design.</p>
+          <div class="check-list">
+            <span>Robot arm experiments</span>
+            <span>Computer vision</span>
+            <span>Object detection</span>
+            <span>Automation workflows</span>
+          </div>
+        </div>
+        <div class="robot-panel" aria-label="Robotics visual">
+
+       <div class="robot-video">
+  <video class="robot-demo" controls playsinline muted poster="assets/robot-poster.png">
+    <source src="assets/robot-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+
+        </div>
+      </section>
+
+      <section class="section github" id="github" data-animate>
+        <div class="section-heading compact">
+          <p class="eyebrow">GitHub</p>
+          <h2>Public Repositories</h2>
+        </div>
+        <div class="github-layout">
+          <div class="language-chart" aria-label="Language chart">
+            <span style="--size: 60%; --color: #2dd4bf">Python</span>
+            <span style="--size: 45%; --color: #f59e0b">JavaScript</span>
+            <span style="--size: 18%; --color: #60a5fa">TypeScript</span>
+            <span style="--size: 20%; --color: #f87171">Java</span>
+            <span style="--size: 30%; --color: #a3e635">C++</span>
+          </div>
+          <div>
+            <div class="repo-grid" id="repo-grid" aria-live="polite">
+              <article class="repo-card"><h3>Veyra Fulfillment OS</h3><p>Warehouse systems, routing, permissions, and receiving workflows.</p></article>
+              <article class="repo-card"><h3>RideShare Platform</h3><p>Flask, MySQL, AWS, ride matching, fares, and trip history.</p></article>
+            </div>
+            <a class="text-link" href="https://github.com/Tmomani11" target="_blank" rel="noreferrer">View GitHub profile</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="timeline" data-animate>
+        <div class="section-heading compact">
+          <p class="eyebrow">Resume Timeline</p>
+          <h2>From Teaching to Deployed AI</h2>
+        </div>
+        <ol class="timeline">
+          <li><time>2021</time><span>Teaching Assistant and Lab Aide at Saddleback College</span></li>
+          <li><time>2024</time><span>Computer Science Mentor at Chapman University</span></li>
+          <li><time>2025</time><span>LA Hacks third-place team lead for AI Fitness Platform</span></li>
+          <li><time>2025</time><span>Bachelor of Science in Computer Science, Chapman University</span></li>
+          <li><time>2026</time><span>Freelance Software and AI Developer in Orange County</span></li>
+        </ol>
+      </section>
+
+      <section class="section awards-lab" data-animate>
+        <div class="award-box">
+          <p class="eyebrow">Awards</p>
+          <h2>Certifications and Recognition</h2>
+          <ul>
+            <li>LA Hacks 2025, 3rd Place</li>
+            <li>Hackathon team lead</li>
+            <li>Dean's List and certifications ready to add</li>
+          </ul>
+        </div>
+        <div class="lab-box" id="lab">
+          <p class="eyebrow">Engineering Lab</p>
+          <h2>Things Built Here</h2>
+          <div class="lab-tags">
+            <span>AI</span><span>CAD</span><span>Robotics</span><span>Cricut projects</span><span>3D printing</span><span>Computer vision</span><span>Warehouse software</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section toolbox-photo" data-animate>
+        <div>
+          <p class="eyebrow">Toolbox</p>
+          <h2>Daily Build Stack</h2>
+          <div class="toolbox">
+            <span>Programming</span><span>AI</span><span>CAD</span><span>3D Printing</span><span>Cloud</span><span>Linux</span><span>Git</span><span>Databases</span>
+          </div>
+        </div>
+        <div>
+          <p class="eyebrow">Photo Gallery</p>
+          <h2>Real Project Media Slots</h2>
+          <div class="photo-strip">
+            <figure>
+              <img src="assets/gumball-machine.png" alt="Close-up of a 3D printed gumball machine">
+              <figcaption>Gumball print</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/snake-game-finished.png" alt="Finished handheld snake game controller">
+              <figcaption>Snake game</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/snake-game-internals.png" alt="Internal wiring and board inside the snake game enclosure">
+              <figcaption>Enclosure</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/printed-sword.png" alt="3D printed sword prop leaning against a wall">
+              <figcaption>Printed prop</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/gumball-lineup.png" alt="Lineup of three gumball machine prototypes">
+              <figcaption>Iterations</figcaption>
+            </figure>
+            <span>More media ready</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonials" data-animate>
+        <div class="section-heading compact">
+          <p class="eyebrow">Testimonials</p>
+          <h2>Proof Points to Add</h2>
+        </div>
+        <div class="testimonial-grid">
+          <blockquote><p>"Tyler explains difficult concepts clearly and helps students get unstuck."</p><cite>Student mentee</cite></blockquote>
+          <blockquote><p>"He took a vague business workflow and turned it into a working AI assistant."</p><cite>Former Client</cite></blockquote>
+          <blockquote><p>"Strong team lead under pressure, technical, practical, and calm."</p><cite>Hackathon teammate </cite></blockquote>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" data-animate>
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Build the Next System</h2>
+          <p>Available for software engineering, AI engineering, full stack development, CAD, and robotics opportunities.</p>
+        </div>
+        <div class="contact-card">
+          <a href="mailto:TylerMomani@gmail.com">TylerMomani@gmail.com</a>
+          <a href="https://linkedin.com/in/Tyler-momani" target="_blank" rel="noreferrer">linkedin.com/in/Tyler-momani</a>
+          <a href="https://github.com/Tmomani11" target="_blank" rel="noreferrer">github.com/Tmomani11</a>
+          <a href="Tyler-Momani-Resume.pdf" target="_blank" rel="noreferrer">Download resume</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="terminal-footer">
+      <pre><code>&gt; status
+available for: software engineering / AI engineering / full stack / CAD / robotics</code></pre>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
